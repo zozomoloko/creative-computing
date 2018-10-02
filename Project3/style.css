@@ -1,0 +1,44 @@
+body{
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+.stilllife{
+  width:200px;
+  height:200px;
+  margin:auto;
+  background-color:blue;
+}
+
+.book{
+  width:100px;
+  height:150px;
+  background-color:yellow;
+  position:relative;
+  transform: translate(40px, 50px);
+}
+
+.cup{
+  width:50px;
+  height:100px;
+  background-color:red;
+transform: translate(50px, -50px);
+
+}
+
+
+.pen{
+  width:10px;
+  height:100px;
+  background-color:black;
+transform: translate(10px, -40px);
+z-index:1;
+}
+
+
+.paper{
+  width:50px;
+  height:100px;
+  background-color:green;
+transform: translate(180px, -150px);
+}
