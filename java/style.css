@@ -4,7 +4,9 @@ p{
 
 }
 
-
+.word{
+  background-color: red;
+}
 
 .title{
   margin-left: 10%;
