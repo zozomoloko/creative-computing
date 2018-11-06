@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<link rel="java2style" href="java2style.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <section id="text">Hello World</section>
+    <section id="clicks">0</section>
+    <script>
+
+       $("document").ready(function(){
+        var textElement = $("#text");
+        var clickCounter = $("#clicks");
+        var clicks = 0;
+
+        textElement.mouseenter (function(){
+          textElement.html ("mouse entered!");
+
+        });
+
+
+        textElement.mouseleave(function(){
+          textElement.html ("mouse left");
+        });
+
+
+        textElement.click(function() {
+          clicks = clicks + 1
+          clickCounter.html(clicks);
+
+
+        });
+
+        })
+
+
+    </script>
+
+  </body>
+
+</html>

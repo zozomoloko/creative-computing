@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+<style>
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline');
+</style>
+
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.clock1 {
+  margin-top: 10%;
+    font-size: 30px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+ .clock2{
+    margin-top: 10%;
+
+}
+
+.clock2 p {
+    width: 30px;
+    display: inline-block;
+
+}
+
+.hour {
+  margin-right: auto;
+  font-size: 200px;
+    color: lightblue;
+    font-family: "Kumar+One+Outline", sans-serif;
+}
+
+.minute{
+  font-size: 150px;
+    color: coral;
+    font-family: "Kumar+One+Outline", sans-serif;
+}
+
+.second{
+  font-size: 100px;
+    color: pink;
+    font-family: "Kumar+One+Outline", sans-serif;
+}
+
+.clock3 {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    Margin: auto;
+    margin-top: 10%;
+
+}
+
+.clock3 div {
+    display: inline-block;
+    transform: translate(30px, 100px);
+}
+
+.turtle {
+margin-bottom: 13%;
+    width: 5%;
+
+}
+
+.rabbit {
+  margin-top: 10%;
+    width: 5%;
+}
+
+
+.clock5 {
+position:absolute;
+
+}
+
+.moon {
+    width: 300px;
+    height: 300px;
+    background: gold;
+    border-radius: 200px;
+    Margin: auto;
+
+
+}
+
+.white {
+    width: 300px;
+    height: 300px;
+    /*    border-style: dashed;*/
+    transform: translate(0, -300px);
+    background: white;
+    border-radius: 200px;
+    Margin: auto;
+
+
+}
+
+
+/* .second-3{
+  background-color: red;
+  width: 100px;
+  height: 20px;
+}
+*/
