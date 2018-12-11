@@ -163,7 +163,7 @@ body {
     margin: auto;
   opacity: 0;
   animation-name: topFadeOut;
-  animation-delay: 80s;
+  animation-delay: 75s;
   animation-duration: 10s;
   color: black;
 }
