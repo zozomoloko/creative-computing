@@ -1,6 +1,6 @@
 $("document").ready(function(){
   $.ajax({
-    url: "http://api.openweathermap.org/data/2.5/weather?q=New%20York&units=imperial&appid=ef3e268cbe387a39c451c064de7ff0c1",
+    url: "http://api.openweathermap.org/data/2.5/weather?q=Tampa&units=imperial&appid=ef3e268cbe387a39c451c064de7ff0c1",
     success: function(data) {
       console.log(data);
       console.log(data,name);

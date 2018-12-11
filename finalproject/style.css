@@ -1,0 +1,169 @@
+img{
+  width: 50%;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 80%;
+  margin: auto;
+}
+
+.second{
+  display: none;
+}
+
+.third{
+  display: none;
+}
+
+.four{
+  display: none;
+}
+
+
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+.animation-box {
+  width: 75%;
+  height: 40rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 30%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+.text1 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 9s;
+  color: black;
+}
+
+.text2 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 7s;
+  animation-duration: 11s;
+  color: black;
+}
+
+.text3 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 15s;
+  animation-duration: 7s;
+  color: black;
+}
+
+.text4 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 20s;
+  animation-duration: 7s;
+  color: black;
+}
+
+.text5 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 25s;
+  animation-duration: 7s;
+  color: black;
+}
+
+.text6 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 30s;
+  animation-duration: 7s;
+  color: black;
+}
+
+.text7 {
+  font-size: 5rem;
+  font-family: futura;
+  position: absolute;
+  top: 5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 35s;
+  animation-duration: 10s;
+  color: red;
+}
+
+.text8 {
+  font-size: 3rem;
+  font-family: futura;
+  position: absolute;
+/*
+  top: 5rem;
+  left: 2.5rem;
+*/
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-delay: 80s;
+  animation-duration: 10s;
+  color: black;
+}

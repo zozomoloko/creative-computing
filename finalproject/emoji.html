@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Alzheimer's Disease</title>
+
+  </head>
+  <body>
+
+
+    <h1></h1>
+    <div class="container">
+      <img id = "image1" onclick="imgClick()" src="emoji1.jpg" alt="1">
+      <img id = "image2" onclick="imgClick2()" src="emoji2.jpg" alt="2">
+      <img id = "image3" onclick="imgClick3()" src="emoji3.jpg" alt="3">
+      <img id = "image4" onclick="imgClick4()" src="emoji4.jpg" alt="4">
+      <img id = "image5" onclick="imgClick5()" src="emoji5.jpg" alt="5">
+      <img id = "image6" onclick="imgClick6()" src="emoji6.jpg" alt="6">
+      <img id = "image7" onclick="imgClick7()" src="emoji7.jpg" alt="7">
+      <img id = "image8" onclick="imgClick8()" src="emoji8.jpg" alt="8">
+      <img id = "image9" onclick="imgClick9()" src="emoji9.jpg" alt="9">
+      <img id = "image10" onclick="imgClick10()" src="emoji10.jpg" alt="10">
+      <img id = "image11" onclick="imgClick11()" src="emoji11.jpg" alt="11">
+      <img id = "image12" onclick="imgClick12()" src="emoji12.jpg" alt="12">
+      <img id = "image13" onclick="imgClick13()" src="emoji13.jpg" alt="13">
+      <img id = "image14" onclick="imgClick14()" src="emoji14.jpg" alt="14">
+      <img id = "image15" onclick="imgClick15()" src="emoji15.jpg" alt="15">
+      <img id = "image16" onclick="imgClick16()" src="emoji16.jpg" alt="16">
+      <img id = "image17" onclick="imgClick17()" src="emoji17.jpg" alt="17">
+      <img id = "image18" onclick="imgClick18()" src="emoji18.jpg" alt="18">
+      <img id = "image19" onclick="imgClick19()" src="emoji19.jpg" alt="19">
+      <img id = "image20" onclick="imgClick20()" src="emoji20.jpg" alt="20">
+      <img id = "image21" onclick="imgClick21()" src="emoji21.jpg" alt="21">
+      <img id = "image22" onclick="imgClick22()" src="emoji22.jpg" alt="22">
+      <img id = "image23" onclick="imgClick23()" src="emoji23.jpg" alt="23">
+      <img id = "image24" onclick="imgClick24()" src="emoji24.jpg" alt="24">
+      <img id = "image25" onclick="imgClick25()" src="emoji25.jpg" alt="25">
+    </div>
+
+  <button class = 'first' onclick="myFunction()">Round 1</button>
+  <button class = 'second' onclick="myFunction2()">Round 2</button>
+  <button class = 'third' onclick="myFunction3()">Round 3</button>
+  <button class = 'four' onclick="myFunction4()">Round 4</button>
+
+    <div class="text8">
+    Nothing stays forever<br/>
+    Learn to cherish <br/>
+    Learn to let go
+  </div>
+
+
+  <script>
+
+
+
+  function myFunction() {
+    $( "img" ).each( function( index, element ){
+        console.log(index);
+        $(this).click(function(){
+          $(this).fadeIn()
+        })
+        $(this).fadeOut(10000)
+    });
+
+    $('.first').css("display", "none");
+    $('.second').css("display", "block");
+
+  }
+
+  function myFunction2() {
+    $( "img" ).each( function( index, element ){
+        console.log(index);
+        $(this).click(function(){
+          $(this).fadeIn()
+        })
+        $(this).fadeOut(5000)
+    });
+
+    $('.second').css("display", "none");
+    $('.third').css("display", "block");
+  }
+
+  function myFunction3() {
+    $( "img" ).each( function( index, element ){
+        console.log(index);
+        $(this).click(function(){
+          $(this).fadeIn()
+        })
+        $(this).fadeOut(2000)
+    });
+
+    $('.third').css("display", "none");
+    $('.four').css("display", "block");
+  }
+
+  function myFunction4() {
+    $( "img" ).each( function( index, element ){
+        console.log(index);
+        $(this).click(function(){
+          $(this).fadeIn()
+        })
+        $(this).fadeOut(100)
+    });
+
+    $('.four').css("display", "none");
+    $('.text8').css("display", "blcok").fadeIn(3000);
+  }
+      
+
+
+  // function imgClick(){
+  //   $( "#image1" ).fadeIn()
+  //   document.getElementById("image1").style.opacity = "1";
+  //
+  // }
+  //
+  // function imgClick2(){
+  //   document.getElementById("image2").style.opacity = "1";
+  //
+  // }
+  // function imgClick3(){
+  //   document.getElementById("image3").style.opacity = "1";
+  //
+  // }
+  //
+  // function imgClick4(){
+  //   document.getElementById("image4").style.opacity = "1";
+  //
+  // }
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

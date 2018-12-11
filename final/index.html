@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+
+  <form id="form">
+    <input id="input1" type="text" name="hello=field" value="" placeholder="say-hello">
+    <input type="submit" name="" value="go">
+  </form>
+
+  <div id="temp">
+  </div>
+
+   <script type="text/javascript">
+   var city = ""
+
+   function getData(city){
+     $.ajax({
+       url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial&appid=ef3e268cbe387a39c451c064de7ff0c1",
+       success: function(data) {
+        $("#temp").html(data.main.temp)
+       }
+     });
+   }
+
+  $("#form").submit(function(event){
+    var userInput = $("#input1").val()
+    getData(userInput)
+    event.preventDefault();
+  });
+
+  getData(city)
+
+  </script>
+
+
+  </body>
+</html>
