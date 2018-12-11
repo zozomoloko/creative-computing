@@ -161,9 +161,10 @@ body {
     text-align: center;
     width: 100%;
     margin: auto;
-  opacity: 0;
-  animation-name: topFadeOut;
+  /* opacity: 0; */
+  display: none;
+  /* animation-name: topFadeOut;
   animation-delay: 75s;
-  animation-duration: 10s;
+  animation-duration: 10s; */
   color: black;
 }
